@@ -1,0 +1,26 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logo {
+  display: inline;
+  margin: 20 0 0 px;
+}
+.forms {
+  display: inline;
+}
+h2,
+.card-text1 {
+  color: gold;
+  font-weight: 700;
+}
+.card-text1 {
+  font-weight: 600;
+}
+
+.search,
+h3,
+h5,
+.card-text2 {
+  color: rgb(28, 92, 230);
+}
