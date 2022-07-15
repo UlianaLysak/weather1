@@ -51,8 +51,4 @@ function getCurrentLocation() {
   event.preventDefault();
   navigator.geolocation.getCurrentLocation(searchLocation);
 }
-
-let currentLocationButton = document.querySelector("#currentLocation");
-currentLocationButton.addEventListener("click", getCurrentLocation);
-
 searchCity("Dublin");
